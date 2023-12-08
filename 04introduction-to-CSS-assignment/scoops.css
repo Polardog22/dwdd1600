@@ -1,0 +1,121 @@
+/* CSS stuff below*/
+
+body {
+    font-size: 18px;
+    font-family: blanket, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0;
+}
+
+header {
+    background-color:#C6FA98;
+    padding: 1.2rem 4vw;
+}
+
+header h1 {
+    margin: 0;
+    color:#FFAA8F;
+}
+
+header h2{
+    margin: 0;
+    color:#FFAA8F;
+    letter-spacing: 1px;
+    font-size: 22px;
+} 
+
+/* got nav I guess*/
+
+nav{
+    background-color: #7FE3CB;
+}
+
+nav a{
+    font-size: 125%;
+    text-decoration: none;
+    color:#C6FA98;
+    font-weight: 800;
+    display: block;
+    padding: .9rem 3rem;
+}
+
+nav li.active a{
+    background-color: #C6FA98;
+    color:#7FE3CB;
+}
+
+nav a:hover{
+    color:#8B9EFC;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 1vw 3vw;
+    margin: 0;
+    display: flex;
+}
+
+/* main thang*/
+
+main h1{
+    color:#E4CB83;
+}
+
+main{
+    padding: 2rem 3vw;
+}
+main h2{
+    color: #E4CB83;
+    margin-bottom: .5rem
+}
+main p{
+    color: black;
+    margin: 0 0 .5rem 0;
+    font-size: 1.2rem;
+}
+
+main ol{
+    padding: 1rem 4vw;
+    background-color:#8B9EFC;
+    color:#FFAA8F;
+}
+
+main ol{
+    list-style-type:decimal;
+}
+main ol li{
+    line-height: 100%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    margin: .4rem;
+}
+
+main dl dt{
+    color:#FFAA8F;
+    font-weight: 500;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+main dl dd{
+    color:#7FE3CB;
+    font-size: 1.3rem;
+}
+
+/* the foot(dawgs)*/
+
+footer {
+    background-color: #E4CB83;
+    text-align: center;
+    color: #FFAA8F;
+    padding: 1rem 1rem 0 0;
+    font-size: 1rem;
+}
+
+footer a{
+    color:#8B9EFC;
+}
+
+
+
